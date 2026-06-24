@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(20, 19, 19);
+}
+
+.container{
+    width: 80%;
+    margin: 100px auto;
+}
+
+.content h2{
+    color: white;
+    padding: 10px;
+    font-size: xx-large;
+}
+
+.content p{
+    color:#7DF9FF;
+    padding: 10px;
+    font-size: x-large;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 30px; 
+}
+
+.images img {
+    width: 50%;            
+    object-fit: cover;     
+    border-radius: 20px ;
+    border: 2px solid #7DF9FF; 
+}
+
+.images img:hover {
+    transform: scale(1.08); 
+    box-shadow: 0 10px 25px #74dbe1; 
+}
