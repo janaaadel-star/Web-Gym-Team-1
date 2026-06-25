@@ -88,7 +88,7 @@ body{
   justify-content: center;
   align-items: center;
   text-align: center;
-  gap: 18px;
+  gap: 25px;
 }
 
 .homepage:hover{
@@ -147,7 +147,6 @@ button:hover{
 }
 
 
-
 .section1 {
   background-color: rgb(20, 19, 19);
   font-family: Arial, Helvetica, sans-serif;
@@ -169,6 +168,7 @@ button:hover{
 .text{
   width: calc(100% - 450px);
   float: left;
+  padding: 40px;
 }
 
 .text h2 {
@@ -185,12 +185,9 @@ button:hover{
 
 .image1 {
   width: 400px;
-  margin-left: 20px;
+  margin-left: 50px;
   float: right;
 }
-
-
-
 .image1 img {
   height: 300px;
   width: 100%;
@@ -239,6 +236,7 @@ button:hover{
   transform: scale(1.08); 
   box-shadow: 0 10px 25px #74dbe1; 
 }
+
 
 .experience{
   padding: 80px 6vw 40px 6vw;
@@ -328,6 +326,7 @@ button:hover{
   color: #7DF9FF;
 }
 
+
 .pricing{  
   text-align:center;
   padding:50px;
@@ -393,6 +392,7 @@ button:hover{
   box-shadow: 0 0 20px #00bfff;
   cursor: pointer;
 }
+
 
 #contact-us{
   background-color: rgb(20, 19, 19);
