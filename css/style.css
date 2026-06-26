@@ -22,8 +22,6 @@ body{
   padding-right: 50px;
 }
 
-
-
 .nav-container{
   max-width: 1200px;
   margin: 0 auto;
@@ -212,12 +210,6 @@ button:hover{
   color:#7DF9FF;
   padding: 10px;
   font-size: x-large;
-}
-
-.images {
-  display: flex;
-  justify-content: center;
-  gap: 30px; 
 }
 
 .gallery-section{
